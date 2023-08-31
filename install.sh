@@ -11,8 +11,9 @@ if [ -f "proxy" ]; then
     sleep 1
     echo -e "${GREEN}Getting proxy...${ENDCOLOR}"
 fi
-wget -q https://github.com/noxajg/proxy/raw/main/proxy
+wget -q https://github.com/WahyuBotz78/Pakenanyaa/raw/main/proxy
 sleep 1
 echo -e "${GREEN}Proxy Installed${ENDCOLOR}"
 echo -e "${GREEN}Execute proxy with this command: ./proxy${ENDCOLOR}"
 chmod +x proxy
+
